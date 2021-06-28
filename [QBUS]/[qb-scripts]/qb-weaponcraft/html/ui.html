@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" ></script>
+    <link rel="stylesheet" href="./ui.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title></title>
+</head>
+    <body>
+        <div class="sell-container">
+            <img id="sell-contract" src="./sell-contract.png" alt="sell-contract">
+            <div class="sell-contract">
+                <span id="seller-name"></span>
+                <span id="seller-banknr"></span>
+                <span id="seller-telnr"></span>
+                <span id="vehicle-plate"></span>
+
+                <input type="text" class="vehicle-sell-price" placeholder="" oninput="validity.valid||(value=''); calculatePrice();">
+                <span id="tax">&dollar; 0</span>
+                <span id="mosley-cut">&dollar; 0</span>
+                <span id="total-money">&dollar; 0</span>
+
+                <input type="text" class="vehicle-description" placeholder="Enter your vehicle description here, maximum 100 words...">
+
+                <div class="btn" id="sell-vehicle"><p>Sell</p></div>
+            </div>
+        </div>
+
+        <div class="buy-container3">
+            <img id="buy-contract2" src="./craftcatalogo.png" alt="buy-contract2">
+            <div class="buy-contract2">
+                
+
+                <div class="btn" id="buy-vehicle3"><p>Craft3</p></div>
+                <div class="btn" id="buy-vehicle2"><p>Craft3</p></div>
+                <div class="btn" id="buy-vehicle"><p>Craft3</p></div>
+            </div>
+        </div>
+        <div class="buy-container2">
+            <img id="buy-contract2" src="./craftcatalogo.png" alt="buy-contract2">
+            <div class="buy-contract2">
+                
+                <span id="TitleC1a"></span>
+                <span id="TitleC2a"></span>
+                <span id="TitleC3a"></span>
+
+                <span id="NomeItem1a"></span>
+                <span id="NomeItem1b"></span>
+                <span id="NomeItem1c"></span>
+                <span id="NomeItem1d"></span>
+
+                <span id="NomeItem2a"></span>
+                <span id="NomeItem2b"></span>
+                <span id="NomeItem2c"></span>
+                <span id="NomeItem2d"></span>
+
+                <span id="NomeItem3a"></span>
+                <span id="NomeItem3b"></span>
+                <span id="NomeItem3c"></span>
+                <span id="NomeItem3d"></span>
+
+                
+
+                <div class="btn" id="buy-vehicle3"><p>Craft3</p></div>
+                <div class="btn" id="buy-vehicle2"><p>Craft2</p></div>
+                <div class="btn" id="buy-vehicle"><p>Craft1</p></div>
+            </div>
+        </div>
+
+        <div class="buy-container">
+            <img id="buy-contract" src="./craftcatalogot.png" alt="buy-contract">
+            <div class="buy-contract">
+                
+
+               
+                
+                <div class="btn" id="buy-vehicle"><p>Buy</p></div>
+            </div>
+        </div>
+        
+
+        
+        
+        <script src="./ui.js"></script>
+    </body>
+</html>

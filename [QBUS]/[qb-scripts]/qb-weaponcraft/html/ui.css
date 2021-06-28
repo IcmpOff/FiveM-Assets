@@ -1,0 +1,432 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#sell-contract {
+    position: absolute;
+    width: 165vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#buy-contract {
+    position: absolute;
+    width: 165vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#buy-contract2 {
+    position: absolute;
+    width: 165vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.vehicle-description {
+    position: absolute;
+    left: 66.5vh;
+    bottom: 48vh;
+    width: 45vh;
+    height: 2vh;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Lato';
+    transition: background-color 0.1s ease-in-out;
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.vehicle-description:hover {
+    background-color: rgba(214, 214, 214, 0.589);
+}
+
+.vehicle-description:focus {
+    background-color: rgba(214, 214, 214, 0.589);
+}
+
+.vehicle-description::placeholder {
+    text-align: left;
+}
+
+#sell-vehicle {
+    position: absolute;
+    width: 10vh;
+    height: 3vh;
+    background: rgb(141, 141, 141);
+    bottom: 22vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 2px;
+    transition: all 0.1s ease-in-out;
+}
+
+#sell-vehicle:hover {
+    background: rgb(179, 179, 179);
+}
+
+#sell-vehicle > p {
+    text-align: center;
+    line-height: 2.9vh;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+#buy-vehicle2-desc {
+    position: absolute;
+    left: 66.8vh;
+    bottom: 48vh;
+    font-family: 'Lato';
+    font-size: 22px;
+}
+
+#buy-vehicle2 {
+    position: absolute;
+    width: 10vh;
+    height: 3vh;
+    background: rgb(114, 63, 5);
+    bottom: 25vh;
+   
+    margin: 0 auto;
+    left: 0vh;
+    right: 0;
+    border-radius: 2px;
+    transition: all 0.1s ease-in-out;
+}
+
+#buy-vehicle2 > p {
+    text-align: center;
+    line-height: 2.9vh;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#buy-vehicle2:hover {
+    background: rgb(179, 179, 179);
+}
+
+#buy-vehicle2-plate {
+    position: absolute;
+    left: 66.8vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+}
+
+
+
+#buy-vehicle3-desc {
+    position: absolute;
+    left: 66.8vh;
+    bottom: 48vh;
+    font-family: 'Lato';
+    font-size: 22px;
+}
+
+#buy-vehicle3 {
+    position: absolute;
+    width: 10vh;
+    height: 3vh;
+    background: rgb(114, 63, 5);
+    bottom: 25vh;
+   
+    margin: 0 auto;
+    left: 33vh;
+    right: 0;
+    border-radius: 2px;
+    transition: all 0.1s ease-in-out;
+}
+
+#buy-vehicle3 > p {
+    text-align: center;
+    line-height: 2.9vh;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#buy-vehicle3:hover {
+    background: rgb(179, 179, 179);
+}
+
+#buy-vehicle3-plate {
+    position: absolute;
+    left: 66.8vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+}
+
+
+#buy-vehicle {
+    position: absolute;
+    width: 10vh;
+    height: 3vh;
+    background:rgb(114, 63, 5);
+    bottom: 25vh;
+    margin: 0 auto;
+    left: -34vh;
+    right: 0;
+    border-radius: 2px;
+    transition: all 0.1s ease-in-out;
+}
+
+#buy-vehicle:hover {
+    background: rgb(179, 179, 179);
+}
+
+#buy-vehicle > p {
+    text-align: center;
+    line-height: 2.9vh;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#seller-name {
+    position: absolute;
+    left: 66.8vh;
+    top: 21.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+#seller-banknr {
+    position: absolute;
+    left: 66.8vh;
+    top: 28vh;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+#seller-telnr {
+    position: absolute;
+    left: 66.8vh;
+    top: 34.2vh;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+#vehicle-plate {
+    position: absolute;
+    left: 66.8vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+.vehicle-sell-price {
+    position: absolute;
+    left: 85.8vh;
+    bottom: 35.75vh;
+    font-family: 'Lato';
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#tax {
+    position: absolute;
+    left: 86.5vh;
+    bottom: 33.5vh;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+
+#mosley-cut {
+    position: absolute;
+    left: 89.5vh;
+    bottom: 31.05vh;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+
+#total-money {
+    position: absolute;
+    left: 92vh;
+    bottom: 28.6vh;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+
+#buy-price {
+    position: absolute;
+    left: 87vh;
+    bottom: 35.8vh;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#TitleC1a {
+    position: absolute;
+    left: 68.8vh;
+    top: 28.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+#TitleC2a {
+    position: absolute;
+    left: 86.8vh;
+    top: 28.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+#TitleC3a {
+    position: absolute;
+    left: 102.8vh;
+    top: 28.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem1a {
+    position: absolute;
+    left: 67.8vh;
+    top: 36vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem1b {
+    position: absolute;
+    left: 67.8vh;
+    top: 38.2vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem1c {
+    position: absolute;
+    left: 67.8vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem1d {
+    position: absolute;
+    left: 67.8vh;
+    top: 42.8vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#NomeItem2a {
+    position: absolute;
+    left: 84.8vh;
+    top: 36vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem2b {
+    position: absolute;
+    left: 84.8vh;
+    top: 38.2vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem2c {
+    position: absolute;
+    left: 84.8vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem2d {
+    position: absolute;
+    left: 84.8vh;
+    top: 42.8vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem3a {
+    position: absolute;
+    left: 101vh;
+    top: 36vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem3b {
+    position: absolute;
+    left: 101vh;
+    top: 38.2vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem3c {
+    position: absolute;
+    left: 101vh;
+    top: 40.5vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#NomeItem3d {
+    position: absolute;
+    left: 101vh;
+    top: 42.8vh;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+   
